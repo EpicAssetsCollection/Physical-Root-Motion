@@ -1,0 +1,22 @@
+1-put PhysicalRootMotion on character hips.
+2-put Animator Override Controller to character and make sure to not activate apply root motion.
+3-choose root motion animation in Animator Override Controller.
+4-assign player animator to PhysicalRootMotion.
+5-choose step which decide the time for each position capture.
+6-click play.
+7-press u to start animation.
+8-press u again after root motion finish.
+9-go to https://www.dcode.fr/function-equation-finder without stop playing.
+10-copy times string and paste in x axis field.
+11-first copy positionx and paste in y axis field.
+12-choose any Curve Fitting method.
+13-activate Plot corresponding curve (when fitting).
+14-click Find a matching equation.
+15-do this for all Curve Fitting method and choose most fitting one.
+16-copy the resalt equation.
+17-do this also but change y axis with positiony ones and positionz ones.
+18-put equations in https://www.derivative-calculator.net/ than click go and get the new one(the velocity equations).
+19-use the equations in script like resaltmotionscript.
+20-add rigid body and freeze all rotations.
+21-create an animation without root motion.
+22-click play and press u to see the resalt.

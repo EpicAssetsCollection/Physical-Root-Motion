@@ -1,0 +1,6 @@
+Physical Root Motion turn root motion from transform to rigid body.
+
+pros:1-dosen`t go throw walls if speed is high or wall thickness is low
+2-fix problem of unity root motion with mixamo.
+3-dosen`t return to it`s original position after finish.
+4-can be used for moving with position, velocity or acceleration.
